@@ -14,3 +14,4 @@ Coleção de soluções dos desafios do **LeetCode** com diferentes abordagens e
 |2620|[Counter](https://leetcode.com/problems/counter/) | [TypeScript](./Array/2620_Counter.ts) | $${\color{green}\text{Fácil}}$$ | Array | 1 |
 |3701|[Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | [Python](./Array/3701_ComputeAlternatingSum.py) | $${\color{green}\text{Fácil}}$$ | Array | 1 |
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Golang](./Array/88_MergeSortedArray.go) | $${\color{green}\text{Fácil}}$$ | Array | 1 |
+|1929|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | [Golang](./Array/1929_ConcatenationOfArray.go) | $${\color{green}\text{Fácil}}$$ | Array | 1 |
