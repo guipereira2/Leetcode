@@ -18,3 +18,4 @@ Coleção de soluções dos desafios do **LeetCode** com diferentes abordagens e
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Golang](./Array/217_ContainsDuplicate.go) | $${\color{green}\text{Fácil}}$$ | Array | 1 |
 |3668|[Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/) | [Golang](./Array/3668_RestoreFinishingOrder.go)<br>[Python](./Array/3668_RestoreFinishingOrder.py)<br>[C#](./Array/3668_RestoreFinishingOrder.cs) | $${\color{green}\text{Fácil}}$$ | Array | 3 |
 |3467|[Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | [Golang](./Array/3467_TransformArrayByParity.go)<br>[Python](./Array/3467_TransformArrayByParity.py)<br>[C#](./Array/3467_TransformArrayByParity.cs) | $${\color{green}\text{Fácil}}$$ | Array | 3 |
+|136|[Single Number](https://leetcode.com/problems/single-number/) | [Golang](./Array/136_SingleNumber.go) | $${\color{green}\text{Fácil}}$$ | Array | 1 |
