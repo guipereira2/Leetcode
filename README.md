@@ -1,6 +1,6 @@
-# ✏️ LeetCode 
+# LeetCode 
 
-Coleção de soluções dos desafios do **LeetCode** com diferentes abordagens e análise de complexidade. 
+Coleção de soluções dos desafios do **LeetCode**. 
 
 ## Lista 
 
