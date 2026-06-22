@@ -20,3 +20,4 @@ Coleção de soluções dos desafios do **LeetCode**.
 |3467|[Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | [Golang](./Array/3467_TransformArrayByParity.go)<br>[Python](./Array/3467_TransformArrayByParity.py)<br>[C#](./Array/3467_TransformArrayByParity.cs) | $${\color{green}\text{Fácil}}$$ | Array | 3 |
 |136|[Single Number](https://leetcode.com/problems/single-number/) | [Golang](./Array/136_SingleNumber.go) | $${\color{green}\text{Fácil}}$$ | Array | 1 |
 |3925|[Concatenate Array With Reverse](https://leetcode.com/problems/concatenate-array-with-reverse/) | [Golang](./Array/3925_ConcatenateArrayWith%20Reverse.go) | $${\color{green}\text{Fácil}}$$ | Array | 1 |
+|2574|[Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | [Golang](./Array/2574_LeftAndRightSumDifferences.go) | $${\color{green}\text{Fácil}}$$ | Array | 1 |
