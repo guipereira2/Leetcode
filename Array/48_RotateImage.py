@@ -15,8 +15,6 @@
 # - Output: [[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]]
 
 
-# Solução
-# - Abordagem: Obter a matriz transposta e depois a reversa
 def rotate(matrix):
     """
     Do not return anything, modify matrix in-place instead.
@@ -26,7 +24,6 @@ def rotate(matrix):
     for i in range(min(len(matrix), len(reversa))):
         matrix[i], reversa[i] = reversa[i], matrix[i]
     print(matrix)
-# - Complexidade: O(n^2)
 
 
 matriz_1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]

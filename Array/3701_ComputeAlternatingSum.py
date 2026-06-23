@@ -17,13 +17,11 @@
 # - The alternating sum is nums[0] - nums[1] + nums[2] - nums[3] = 1 - 3 + 5 - 7 = -4.
 
 
-# Solução
-# Passar um contador para controlar paridade e uma variável para soma
 def alternatingSum(nums):
     sum = 0
     counter = 0
 
-    for i in (nums):
+    for i in nums:
         print(counter, sum, i)
         if counter == 0:
             sum = sum + i
@@ -36,7 +34,6 @@ def alternatingSum(nums):
             counter += 1
 
     return sum
-# - Complexidade: O(n)
 
 
 nums = [1, 3, 5, 7]

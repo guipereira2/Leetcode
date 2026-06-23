@@ -25,17 +25,11 @@ package main
 
 import "fmt"
 
-// Solução por força bruta
-// - Abordagem: Usar força bruta para percorrer todos itens e comparar a soma com o target
 func twoSum(nums []int, target int) []int {
-	// Cria uma slice para armazenar os índices
 	pos := []int{}
-	// Percorre a slice usando força bruta comparando todos os valores
 	for i := 0; i < len(nums); i++ {
 		for j := i + 1; j < len(nums); j++ {
-			// Verifica se a soma dos valores corresponde ao target
 			if nums[i]+nums[j] == target {
-				// Adiciona os índices na slice
 				pos = append(pos, i, j)
 			}
 		}
@@ -43,10 +37,7 @@ func twoSum(nums []int, target int) []int {
 	return pos
 }
 
-// - Complexidade: O(n^2)
-
 func main() {
-	// Exemplo 1:
 	resultado := twoSum([]int{2, 7, 11, 15}, 9)
 	fmt.Println(resultado) // [0 1]
 }
