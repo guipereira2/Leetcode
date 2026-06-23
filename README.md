@@ -1,10 +1,10 @@
 # LeetCode 
 
-Coleção de soluções dos desafios do **LeetCode**. 
+Coleção de soluções dos problemas do **LeetCode**. 
 
 ## Lista 
 
-|   | Desafio | Solução | Dificuldade | Tema |
+|   | Problemas | Solução | Dificuldade | Tema |
 |---| ----- | -------- | ---------- | --------------------------|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./Array/1_TwoSum.py)<br>[Golang](./Array/1_TwoSum.go) | $${\color{green}\text{Fácil}}$$ | Array |
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./Array/48_RotateImage.py) | $${\color{yellow}\text{Médio}}$$ | Matriz |
