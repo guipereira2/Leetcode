@@ -2,23 +2,18 @@
 #
 # There is a singly-linked list `head` and we want to delete a node `node` in it.
 #
-# You are given the node to be deleted `node`. You will **not be given access** to
-# the first node of `head`.
+# You are given the node to be deleted `node`. You will **not be given access** to the first node of `head`.
 #
-# All the values of the linked list are **unique**, and it is guaranteed that the
-# given node node is not the last node in the linked list.
+# All the values of the linked list are **unique**, and it is guaranteed that the given node node is not the last node in the linked list.
 #
-# Delete the given node. Note that by deleting the node, we do not mean removing
-# it from memory. We mean:
+# Delete the given node. Note that by deleting the node, we do not mean removing it from memory. We mean:
 # - The value of the given node should not exist in the linked list.
 # - The number of nodes in the linked list should decrease by one.
 # - All the values before `node` should be in the same order.
 # - All the values after `node` should be in the same order.
 #
 # Custom testing:
-# - For the input, you should provide the entire linked list `head` and the node
-#   to be given `node`. `node` should not be the last node of the list and should
-#   be an actual node in the list.
+# - For the input, you should provide the entire linked list `head` and the node to be given `node`. `node` should not be the last node of the list and should be an actual node in the list.
 # - We will build the linked list and pass the node to your function.
 # - The output will be the entire list after calling your function.
 #
@@ -35,9 +30,6 @@
 #   should become 4 -> 5 -> 9 after calling your function.
 
 
-# Solução
-# - Abordagem: Copia o valor do próximo nó para o nó atual e ajusta o ponteiro
-#   para o próximo nó.
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -70,20 +62,15 @@ def deleteNode(node):
     """
     node.val = node.next.val
     node.next = node.next.next
-# - Complexidade: O(1)
 
 
-# Exemplo 1
 head_1 = [4, 5, 1, 9]
-# node = 5
 lista_1 = criar_lista(head_1)
 no_1 = lista_1.next
 deleteNode(no_1)
 imprimir_lista(lista_1)  # [4, 1, 9]
 
-# Exemplo 2
 head_2 = [4, 5, 1, 9]
-# node = 1
 lista_2 = criar_lista(head_2)
 no_2 = lista_2.next.next
 deleteNode(no_2)

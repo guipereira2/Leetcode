@@ -11,10 +11,6 @@
 # - Output: 19
 
 
-# Solução percorrendo a árvore duas vezes
-# - Abordagem:
-#     - Percorrer a árvore uma vez e calcular a altura
-#     - Percorrer a árvore novamente até alcançar a altura calculada e realizar a soma
 def deepestLeavesSum(root) -> int:
 
     def altura(no):
@@ -39,10 +35,6 @@ def deepestLeavesSum(root) -> int:
     return inorder(root)
 
 
-# - Complexidade: O(N)
-
-
-# Funções auxiliares
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val

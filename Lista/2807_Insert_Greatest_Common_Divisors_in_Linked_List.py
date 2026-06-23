@@ -2,13 +2,11 @@
 #
 # Given the head of a linked list `head`, in which each node contains an integer value.
 #
-# Between every pair of adjacent nodes, insert a new node with a value equal to
-# the greatest common divisor of them.
+# Between every pair of adjacent nodes, insert a new node with a value equal to the greatest common divisor of them.
 #
 # Return the linked list after insertion.
 #
-# The **greatest common divisor** of two numbers is the largest positive integer
-# that evenly divides both numbers.
+# The **greatest common divisor** of two numbers is the largest positive integer that evenly divides both numbers.
 #
 # Example 1:
 # - Input:  head = [18,6,10,3]
@@ -29,9 +27,6 @@
 #     - There are no pairs of adjacent nodes, so we return the initial linked list.
 
 
-# Primeira solução percorrendo a lista
-# - Abordagem: Percorrer a lista e para cada par de nós adjacentes, calcular o MDC
-#   e inserir um novo nó com esse valor entre eles.
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -52,20 +47,14 @@ def criar_lista(valores):
 def insertGreatestCommonDivisors_percorrer(head):
     atual = head
     import math
-    # Equanto atual.next não é None
+
     while atual.next != None:
-        # Calcula o valor do novo nó
         novo_valor = math.gcd(atual.val, atual.next.val)
-        # Cria o novo nó
         novo_no = ListNode(novo_valor)
-        # Passa o next do novo nó para o next do nó atual
         novo_no.next = atual.next
-        # O next do nó atual é o novo nó
         atual.next = novo_no
-        # Pula pro next.next para pular o novo nó
         atual = atual.next.next
     return head
-# - Complexidade: O(n)
 
 
 def imprimir_lista(head):
@@ -77,53 +66,12 @@ def imprimir_lista(head):
     print(valores)
 
 
-# Exemplo 1
 head_1 = [18, 6, 10, 3]
 lista_1 = criar_lista(head_1)
 insertGreatestCommonDivisors_percorrer(lista_1)
 imprimir_lista(lista_1)  # [18, 6, 6, 2, 10, 1, 3]
 
-# Exemplo 2
 head_2 = [7]
 lista_2 = criar_lista(head_2)
 insertGreatestCommonDivisors_percorrer(lista_2)
-imprimir_lista(lista_2)  # [7]
-
-
-# Segunda resolução usando recursão
-# - Abordagem: Percorrer a lista recursivamente e para cada par de nós adjacentes,
-#   calcular o MDC e inserir um novo nó com esse valor entre eles.
-def insertGreatestCommonDivisors_recursivo(head):
-    # Caso base da recursão
-    if head is None or head.next is None:
-        return head
-
-    import math
-    # Calcula o valor do novo nó
-    novo_valor = math.gcd(head.val, head.next.val)
-    # Cria o novo nó
-    novo_no = ListNode(novo_valor)
-
-    # Passa o next do novo nó para o next do nó atual
-    novo_no.next = head.next
-
-    # Passa o next do atual para o novo nó
-    head.next = novo_no
-
-    # Percorre recursivamente
-    insertGreatestCommonDivisors_recursivo(head.next.next)
-    return head
-# - Complexidade: O(n)
-
-
-# Exemplo 1
-head_1 = [18, 6, 10, 3]
-lista_1 = criar_lista(head_1)
-insertGreatestCommonDivisors_recursivo(lista_1)
-imprimir_lista(lista_1)  # [18, 6, 6, 2, 10, 1, 3]
-
-# Exemplo 2
-head_2 = [7]
-lista_2 = criar_lista(head_2)
-insertGreatestCommonDivisors_recursivo(lista_2)
 imprimir_lista(lista_2)  # [7]
