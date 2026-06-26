@@ -1,6 +1,6 @@
 # LeetCode 
 
-### Coleção de soluções dos problemas do **LeetCode**. 
+### Coleção de soluções dos problemas do LeetCode. 
 
 |   | Problemas | Solução | Dificuldade | Tema |
 |---| ----- | -------- | ---------- | --------------------------|
