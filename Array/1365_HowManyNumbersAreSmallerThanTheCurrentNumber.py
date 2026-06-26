@@ -20,8 +20,8 @@
 # Example 3:
 # Input: nums = [7,7,7,7]
 # Output: [0,0,0,0]
-from typing import List
 
+from typing import List
 
 class Solution:
     # força bruta
@@ -51,12 +51,10 @@ class Solution:
 
         return arr
 
-
 def main():
     solution = Solution()
     nums = [8, 1, 2, 2, 3]
-    # print(solution.smallerNumbersThanCurrent(nums))
+    print(solution.smallerNumbersThanCurrent(nums))
     print(solution.smallerNumbersThanCurrent_2(nums))
-
 
 main()
