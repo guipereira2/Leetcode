@@ -21,6 +21,27 @@
 // Input: nums = [7,7,7,7]
 // Output: [0,0,0,0]
 
-func smallerNumbersThanCurrent(nums []int) []int {
+package main
 
+import "fmt"
+
+func smallerNumbersThanCurrent(nums []int) []int {
+	counter := 0
+	arr := []int{}
+
+	for _, v := range nums {
+		counter = 0
+		for _, j := range nums {
+			if v > j {
+				counter++
+			}
+		}
+		arr = append(arr, counter)
+	}
+
+	return arr
+}
+
+func main() {
+	fmt.Println(smallerNumbersThanCurrent([]int{8, 1, 2, 2, 3})) // [4 0 1 1 3]
 }
