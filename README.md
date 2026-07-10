@@ -6,8 +6,8 @@
 |---| ----- | -------- | ---------- | --------------------------|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./Array/1_Two_Sum.py)<br>[Golang](./Array/1_Two_Sum.go) | $${\color{green}\text{Fácil}}$$ | Array |
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./Array/48_Rotate_Image.py) | $${\color{yellow}\text{Médio}}$$ | Matriz |
-|2807|[Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/) | [Python](./Lista/2807_Insert_Greatest_Common_Divisors_in_Linked_List.py) | $${\color{yellow}\text{Médio}}$$ | Lista |
-|237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Python](./Lista/237_Delete_Node_in_a_Linked_List.py) | $${\color{yellow}\text{Médio}}$$ | Lista |
+|2807|[Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/) | [Python](./Lista/2807_Insert_Greatest_Common_Divisors_in_Linked_List.py) | $${\color{yellow}\text{Médio}}$$ | Lista ligada |
+|237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Python](./Lista/237_Delete_Node_in_a_Linked_List.py) | $${\color{yellow}\text{Médio}}$$ | Lista ligada |
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | [Python](./Arvore/1302_Deepest_Leaves_Sum.py) | $${\color{yellow}\text{Médio}}$$ | Árvore |
 |3701|[Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | [Python](./Array/3701_Compute_Alternating_Sum.py) | $${\color{green}\text{Fácil}}$$ | Array |
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Golang](./Array/88_Merge_Sorted_Array.go) | $${\color{green}\text{Fácil}}$$ | Array |
@@ -20,6 +20,6 @@
 |2574|[Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | [Golang](./Array/2574_Left_And_Right_Sum_Differences.go) | $${\color{green}\text{Fácil}}$$ | Array |
 |2798|[Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/) | [Golang](./Array/2798_Number_Of_Employees_Who_Met_Target.go)<br>[Python](./Array/2798_Number_Of_Employees_Who_Met_Target.py) | $${\color{green}\text{Fácil}}$$ | Array |
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | [Golang](./Array/1365_How_Many_Numbers_Are_Smaller_Than_The_Current_Number.go)<br>[Python](./Array/1365_How_Many_Numbers_Are_Smaller_Than_The_Current_Number.py) | $${\color{green}\text{Fácil}}$$ | Array |
-|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](./Lista/2_Add_Two_Numbers.py) | $${\color{yellow}\text{Médio}}$$ | Lista |
+|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](./Lista/2_Add_Two_Numbers.py) | $${\color{yellow}\text{Médio}}$$ | Lista ligada |
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](./Array/4_Median_of_Two_Sorted_Arrays.py) | $${\color{red}\text{Difícil}}$$ | Array |
 |2389|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/) | [Python](./Array/2389_Longest_Subsequence_With_Limited_Sum.py) | $${\color{green}\text{Fácil}}$$ | Array |
