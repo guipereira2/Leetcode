@@ -22,3 +22,4 @@
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | [Golang](./Array/1365_How_Many_Numbers_Are_Smaller_Than_The_Current_Number.go)<br>[Python](./Array/1365_How_Many_Numbers_Are_Smaller_Than_The_Current_Number.py) | $${\color{green}\text{Fácil}}$$ | Array |
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](./Lista/2_Add_Two_Numbers.py) | $${\color{yellow}\text{Médio}}$$ | Lista |
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](./Array/4_Median_of_Two_Sorted_Arrays.py) | $${\color{red}\text{Difícil}}$$ | Array |
+|2389|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/) | [Python](./Array/2389_Longest_Subsequence_With_Limited_Sum.py) | $${\color{green}\text{Fácil}}$$ | Array |
