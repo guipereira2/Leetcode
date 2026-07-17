@@ -24,3 +24,4 @@
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](./Array/4_Median_of_Two_Sorted_Arrays.py) | $${\color{red}\text{Difícil}}$$ | Array |
 |2389|[Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/) | [Python](./Array/2389_Longest_Subsequence_With_Limited_Sum.py) | $${\color{green}\text{Fácil}}$$ | Array |
 |2300|[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/) | [Python](./Array/2300_Successful_Pairs_of_Spells_and_Potions.py) | $${\color{yellow}\text{Médio}}$$ | Array |
+|3190|[Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/) | [Golang](./Array/3190_Find_Minimum_Operations_to_Make_All_Elements_Divisible_by_Three.go) | $${\color{green}\text{Fácil}}$$ | Array |
