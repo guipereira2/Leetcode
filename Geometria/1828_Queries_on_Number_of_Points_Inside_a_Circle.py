@@ -15,8 +15,9 @@
 # Explanation: The points and circles are shown above.
 # queries[0] is the green circle, queries[1] is the red circle, and queries[2] is the blue circle.
 
-from typing import List
 import math
+from typing import List
+
 
 def countPoints(points: List[List[int]], queries: List[List[int]]) -> List[int]:
     res = []
@@ -25,9 +26,10 @@ def countPoints(points: List[List[int]], queries: List[List[int]]) -> List[int]:
         for j in points:
             dist = math.dist(i[:2], j)
             if dist <= i[-1]:
-                counter+=1
+                counter += 1
         res.append(counter)
         counter = 0
     return res
 
-print(countPoints([[1,3],[3,3],[5,3],[2,2]], [[2,3,1],[4,3,1],[1,1,2]]))
+
+print(countPoints([[1, 3], [3, 3], [5, 3], [2, 2]], [[2, 3, 1], [4, 3, 1], [1, 1, 2]]))

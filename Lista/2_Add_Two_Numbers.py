@@ -18,16 +18,20 @@
 
 from typing import Optional
 
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
 
+
 class Solution:
-    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+    def addTwoNumbers(
+        self, l1: Optional[ListNode], l2: Optional[ListNode]
+    ) -> Optional[ListNode]:
         left = []
-        left_sum = ''
-        right_sum = ''
+        left_sum = ""
+        right_sum = ""
         right = []
         head_left = l1
         head_right = l2
@@ -53,6 +57,7 @@ class Solution:
 
         return criar_lista(sum_arr)
 
+
 def criar_lista(valores):
     head = ListNode(valores[0])
     atual = head
@@ -60,6 +65,7 @@ def criar_lista(valores):
         atual.next = ListNode(valor)
         atual = atual.next
     return head
+
 
 def imprimir_lista(head):
     valores = []
@@ -69,10 +75,12 @@ def imprimir_lista(head):
         atual = atual.next
     print(valores)
 
+
 def main():
     solution = Solution()
     l1 = criar_lista([2, 4, 3])
     l2 = criar_lista([5, 6, 4])
     imprimir_lista(solution.addTwoNumbers(l1, l2))  # [7, 0, 8]
+
 
 main()

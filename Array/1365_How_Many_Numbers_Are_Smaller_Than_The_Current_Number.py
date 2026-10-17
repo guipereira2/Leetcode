@@ -23,6 +23,7 @@
 
 from typing import List
 
+
 class Solution:
     # força bruta
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
@@ -51,10 +52,12 @@ class Solution:
 
         return arr
 
+
 def main():
     solution = Solution()
     nums = [8, 1, 2, 2, 3]
     print(solution.smallerNumbersThanCurrent(nums))
     print(solution.smallerNumbersThanCurrent_2(nums))
+
 
 main()

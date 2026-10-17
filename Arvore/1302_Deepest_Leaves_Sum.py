@@ -10,6 +10,7 @@
 # Input:  root = [6,7,8,2,7,1,3,9,null,1,4,null,null,null,5]
 # Output: 19
 
+
 def deepestLeavesSum(root) -> int:
 
     def altura(no):
@@ -33,11 +34,13 @@ def deepestLeavesSum(root) -> int:
 
     return inorder(root)
 
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
         self.left = left
         self.right = right
+
 
 def insereArv(root: "TreeNode", val: int) -> "TreeNode":
     if root is None:
@@ -48,13 +51,16 @@ def insereArv(root: "TreeNode", val: int) -> "TreeNode":
         root.right = insereArv(root.right, val)
     return root
 
+
 def insereLista(root: "TreeNode", valores: list[int]) -> "TreeNode":
     for i in valores:
         root = insereArv(root, i)
     return root
 
+
 def main():
     arvore = insereLista(None, [5, 3, 8, 2, 4, 7, 9])
     print(deepestLeavesSum(arvore))  # 22
+
 
 main()

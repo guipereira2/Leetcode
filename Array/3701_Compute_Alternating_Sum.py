@@ -1,5 +1,5 @@
 # 3701. Compute Alternating Sum
-#
+
 # You are given an integer array nums.
 #
 # The alternating sum of `nums` is the value obtained by adding elements at even

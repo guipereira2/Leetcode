@@ -30,3 +30,4 @@
 |1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [Python](./Array/1672_Richest_Customer_Wealth.py) | $${\color{green}\text{Fácil}}$$ | Matriz |
 |2942|[Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | [Python](./Array/2942_Find_Words_Containing_Character.py) | $${\color{green}\text{Fácil}}$$ | Array |
 |1828|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/) | [Python](./Geometria/1828_Queries_on_Number_of_Points_Inside_a_Circle.py) | $${\color{yellow}\text{Médio}}$$ | Geometria |
+|268|[Missing Number](https://leetcode.com/problems/missing-number/) | [Python](./Array/268_Missing_Number.py) | $${\color{green}\text{Fácil}}$$ | Array |
