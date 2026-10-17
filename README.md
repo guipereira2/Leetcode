@@ -31,3 +31,4 @@
 |2942|[Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | [Python](./Array/2942_Find_Words_Containing_Character.py) | $${\color{green}\text{Fácil}}$$ | Array |
 |1828|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/) | [Python](./Geometria/1828_Queries_on_Number_of_Points_Inside_a_Circle.py) | $${\color{yellow}\text{Médio}}$$ | Geometria |
 |268|[Missing Number](https://leetcode.com/problems/missing-number/) | [Python](./Array/268_Missing_Number.py) | $${\color{green}\text{Fácil}}$$ | Array |
+|485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Python](./Array/485_Max_Consecutive_Ones.py) | $${\color{green}\text{Fácil}}$$ | Array |
