@@ -32,4 +32,4 @@
 |1828|[Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/) | [Python](./Geometria/1828_Queries_on_Number_of_Points_Inside_a_Circle.py) | $${\color{yellow}\text{Médio}}$$ | Geometria |
 |268|[Missing Number](https://leetcode.com/problems/missing-number/) | [Python](./Array/268_Missing_Number.py) | $${\color{green}\text{Fácil}}$$ | Array |
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Python](./Array/485_Max_Consecutive_Ones.py) | $${\color{green}\text{Fácil}}$$ | Array |
-|2610|[Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions) | [Python](./Array/2610_Convert_an_Array_Into_a_2D_Array_With_Conditions.py) | $${
+|2610|[Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions) | [Python](./Array/2610_Convert_an_Array_Into_a_2D_Array_With_Conditions.py) | $${\color{yellow}\text{Médio}}$$ | Array |
