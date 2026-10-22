@@ -34,3 +34,4 @@
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Python](./Array/485_Max_Consecutive_Ones.py) | $${\color{green}\text{Fácil}}$$ | Array |
 |2610|[Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions) | [Python](./Array/2610_Convert_an_Array_Into_a_2D_Array_With_Conditions.py) | $${\color{yellow}\text{Médio}}$$ | Array |
 |2161|[Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot) | [Python](./Array/2161_Partition_Array_According_to_Given_Pivot.py) | $${\color{yellow}\text{Médio}}$$ | Array |
+|3194|[Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements) | [Python](./Array/3194_Minimum_Average_of_Smallest_and_Largest_Elements.py) | $${\color{green}\text{Fácil}}$$ | Array |
