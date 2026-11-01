@@ -37,3 +37,4 @@
 |3194|[Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements) | [Python](./Array/3194_Minimum_Average_of_Smallest_and_Largest_Elements.py) | $${\color{green}\text{Fácil}}$$ | Array |
 |2442|[Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [Python](./Array/2442_Count_Number_of_Distinct_Integers_After_Reverse_Operations.py) | $${\color{yellow}\text{Médio}}$$ | Array |
 |2149|[Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign) | [Python](./Array/2149_Rearrange_Array_Elements_by_Sign.py) | $${\color{yellow}\text{Médio}}$$ | Array |
+|654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree) | [Python](./Arvore/654_Maximum_Binary_Tree.py) | $${\color{yellow}\text{Médio}}$$ | Árvore |
