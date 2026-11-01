@@ -33,6 +33,7 @@ def rearrangeArray(nums: list[int]) -> list[int]:
     counter = 0
     arr_res = []
     flag = True
+
     for i in nums:
         if i < 0:
             arr_negatives.append(i)
