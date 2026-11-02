@@ -38,3 +38,4 @@
 |2442|[Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations) | [Python](./Array/2442_Count_Number_of_Distinct_Integers_After_Reverse_Operations.py) | $${\color{yellow}\text{Médio}}$$ | Array |
 |2149|[Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign) | [Python](./Array/2149_Rearrange_Array_Elements_by_Sign.py) | $${\color{yellow}\text{Médio}}$$ | Array |
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree) | [Python](./Arvore/654_Maximum_Binary_Tree.py) | $${\color{yellow}\text{Médio}}$$ | Árvore |
+|2089|[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array) | [Python](./Busca-Binária/2089_Find_Target_Indices_After_Sorting_Array.py) | $${\color{green}\text{Fácil}}$$ | Busca Binária |
