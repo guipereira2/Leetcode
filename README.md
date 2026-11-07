@@ -39,3 +39,4 @@
 |2149|[Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign) | [Python](./Array/2149_Rearrange_Array_Elements_by_Sign.py) | $${\color{yellow}\text{Médio}}$$ | Array |
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree) | [Python](./Arvore/654_Maximum_Binary_Tree.py) | $${\color{yellow}\text{Médio}}$$ | Árvore |
 |2089|[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array) | [Python](./Busca-Binária/2089_Find_Target_Indices_After_Sorting_Array.py) | $${\color{green}\text{Fácil}}$$ | Busca Binária |
+|2824|[Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target) | [Python](./Array/2824_Count_Pairs_Whose_Sum_is_Less_than_Target.py) | $${\color{green}\text{Fácil}}$$ | Array |
